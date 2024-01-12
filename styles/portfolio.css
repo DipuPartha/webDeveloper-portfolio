@@ -11,7 +11,7 @@ body {
   border: 0;
   font-size: 20px;
   font-weight: 700;
-  color: var(--White-Color, #FFF);
+  color: var(--White-Color, #fff);
   padding: 18px 35px;
 }
 /* nav related style */
@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -37,4 +38,19 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--Dark-02, #474747);
+}
+
+/* header related style */
+.header {
+  background: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.profile-picture {
+  width: 500px;
+  height: 550px;
+  flex-shrink: 0;
 }
